@@ -532,7 +532,17 @@ h1 {
   width: 100%;
 }
 
-
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    top: 40%;
+  }
+  .my-name,
+  .my-name-2 {
+    font-size: 0.8rem;
+    top: 52%;
+  }
+}
 @media (max-width: 480px) {
   h1 {
     font-size: 1.8rem;
