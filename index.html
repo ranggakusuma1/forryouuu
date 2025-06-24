@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#2c0e22" />
+  <title>Bunga Animasi - Hadiah Khusus</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="start-screen">
+    <h1 class="start-title">Kamuu siapaa?</h1>
+    <input type="text" id="nameInput" placeholder="Masukkan nama kamu..." />
+    <button id="startButton">Mulai</button>
+  </div>
+
+  <h1 id="greeting" style="display:none;"></h1>
+  <p class="my-name" style="display:none;">Kamu tau gaa kenapa bunga bisa mekar? Karena dia dengar kamu tersenyum hari ini.</p>
+  <p class="my-name-2" style="display:none;">cieeeee dapett bungaaa</p>
+  <div class="rain-container"></div>
+
+  <div class="flower" id="animation-flower">
+    <!-- Bunga 1 -->
+    <div class="f-wrapper">
+      <div class="flower__line"></div>
+      <div class="f">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__leaf flower__leaf--7"></div>
+        <div class="flower__leaf flower__leaf--8 flower__fall-down--yellow"></div>
+      </div>
+    </div>
+
+    <!-- Bunga 2 -->
+    <div class="f-wrapper f-wrapper--2">
+      <div class="flower__line"></div>
+      <div class="f">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__leaf flower__leaf--7"></div>
+        <div class="flower__leaf flower__leaf--8 flower__fall-down--pink"></div>
+      </div>
+    </div>
+
+    <!-- Bunga 3 -->
+    <div class="f-wrapper f-wrapper--3">
+      <div class="flower__line"></div>
+      <div class="f">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__leaf flower__leaf--7"></div>
+        <div class="flower__leaf flower__leaf--8 flower__fall-down--purple"></div>
+      </div>
+    </div>
+    <div class="flower__glass"></div>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <source src="lagunya.m qp3" type="audio/mpeg" />
+    Browser Anda tidak mendukung elemen audio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
